@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include atasp_connect *.css
+recursive-include atasp_connect *.csv
+recursive-include atasp_connect *.html
+recursive-include atasp_connect *.ico
+recursive-include atasp_connect *.js
+recursive-include atasp_connect *.json
+recursive-include atasp_connect *.md
+recursive-include atasp_connect *.png
+recursive-include atasp_connect *.py
+recursive-include atasp_connect *.svg
+recursive-include atasp_connect *.txt
+recursive-exclude atasp_connect *.pyc
