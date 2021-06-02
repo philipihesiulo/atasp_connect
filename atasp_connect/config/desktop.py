@@ -10,5 +10,13 @@ def get_data():
 			"icon": "octicon octicon-file-directory",
 			"type": "module",
 			"label": _("ATASP Connect")
+		},
+
+		{
+			"module_name": "Monitoring & Evaluation",
+			"color": "grey",
+			"icon": "octicon octicon-file-directory",
+			"type": "module",
+			"label": _("Monitoring & Evaluation")
 		}
 	]

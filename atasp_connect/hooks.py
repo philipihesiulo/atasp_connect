@@ -14,6 +14,13 @@ app_license = "MIT"
 # Includes in <head>
 # ------------------
 
+app_logo_url = '/assets/atasp_connect/images/logo.png'
+
+website_context = {
+	"favicon": 	"/assets/atasp_connect/images/favicon.png",
+	"splash_image": "/assets/atasp_connect/images/logo.png"
+}
+
 # include js, css files in header of desk.html
 # app_include_css = "/assets/atasp_connect/css/atasp_connect.css"
 # app_include_js = "/assets/atasp_connect/js/atasp_connect.js"
