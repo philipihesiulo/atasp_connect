@@ -7,7 +7,8 @@
  "field_order": [
   "zone",
   "state_name",
-  "abbr"
+  "abbr",
+  "other_name"
  ],
  "fields": [
   {
@@ -25,11 +26,16 @@
    "fieldname": "abbr",
    "fieldtype": "Data",
    "label": "Abbreviation"
+  },
+  {
+   "fieldname": "other_name",
+   "fieldtype": "Data",
+   "label": "Other Name"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-05-26 10:03:21.221367",
+ "modified": "2021-06-02 04:56:35.454896",
  "modified_by": "Administrator",
  "module": "ATASP Connect",
  "name": "State",

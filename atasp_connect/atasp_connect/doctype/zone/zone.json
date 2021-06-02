@@ -6,7 +6,8 @@
  "engine": "InnoDB",
  "field_order": [
   "zone_name",
-  "abbr"
+  "abbr",
+  "other_name"
  ],
  "fields": [
   {
@@ -18,11 +19,16 @@
    "fieldname": "abbr",
    "fieldtype": "Data",
    "label": "Abbreviation"
+  },
+  {
+   "fieldname": "other_name",
+   "fieldtype": "Data",
+   "label": "Other Name"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-05-26 10:01:32.863832",
+ "modified": "2021-06-02 04:56:15.683928",
  "modified_by": "Administrator",
  "module": "ATASP Connect",
  "name": "Zone",
