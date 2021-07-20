@@ -1,45 +1,38 @@
 {
  "actions": [],
- "autoname": "format:{state_name} -- {other_name}",
- "creation": "2021-05-26 10:03:21.221367",
+ "autoname": "format:{year_title}",
+ "creation": "2021-06-11 16:28:41.883394",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "zone",
-  "state_name",
-  "abbr",
-  "other_name"
+  "year_title",
+  "start_date",
+  "end_date"
  ],
  "fields": [
   {
-   "fieldname": "zone",
-   "fieldtype": "Link",
-   "label": "Zone",
-   "options": "Zone"
+   "fieldname": "year_title",
+   "fieldtype": "Data",
+   "label": "Year Title"
   },
   {
-   "fieldname": "state_name",
-   "fieldtype": "Data",
-   "label": "State Name"
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "label": "Start Date"
   },
   {
-   "fieldname": "abbr",
+   "fieldname": "end_date",
    "fieldtype": "Data",
-   "label": "Abbreviation"
-  },
-  {
-   "fieldname": "other_name",
-   "fieldtype": "Data",
-   "label": "Other Name"
+   "label": "End Date"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-06-11 16:52:48.476330",
+ "modified": "2021-06-11 16:28:41.883394",
  "modified_by": "Administrator",
- "module": "ATASP Connect",
- "name": "State",
+ "module": "KPI",
+ "name": "Year",
  "owner": "Administrator",
  "permissions": [
   {

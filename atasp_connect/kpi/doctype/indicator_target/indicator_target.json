@@ -1,0 +1,47 @@
+{
+ "actions": [],
+ "autoname": "format:{indicator}",
+ "creation": "2021-06-11 16:37:22.588989",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "indicator",
+  "baseline",
+  "target"
+ ],
+ "fields": [
+  {
+   "fieldname": "indicator",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Indicator",
+   "options": "Indicator",
+   "reqd": 1
+  },
+  {
+   "fieldname": "target",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Target",
+   "reqd": 1
+  },
+  {
+   "fieldname": "baseline",
+   "fieldtype": "Int",
+   "label": "Baseline"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-06-11 22:34:29.399907",
+ "modified_by": "Administrator",
+ "module": "KPI",
+ "name": "Indicator Target",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

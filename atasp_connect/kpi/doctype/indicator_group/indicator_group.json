@@ -1,43 +1,48 @@
 {
  "actions": [],
- "autoname": "format:{zone_name} -- {other_name}",
- "creation": "2021-05-26 10:01:32.863832",
+ "autoname": "format:{code} -- {group_name}",
+ "creation": "2021-06-11 15:14:27.795306",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "zone_name",
-  "abbr",
-  "other_name"
+  "group_name",
+  "code",
+  "kpis_section",
+  "inidicators"
  ],
  "fields": [
   {
-   "fieldname": "zone_name",
+   "fieldname": "group_name",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "Zone Name",
-   "reqd": 1,
-   "unique": 1
-  },
-  {
-   "fieldname": "abbr",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Abbreviation",
+   "label": "Group Name",
    "reqd": 1
   },
   {
-   "fieldname": "other_name",
+   "fieldname": "code",
    "fieldtype": "Data",
-   "label": "Other Name"
+   "label": "Code"
+  },
+  {
+   "fieldname": "kpis_section",
+   "fieldtype": "Section Break",
+   "label": "KPIs"
+  },
+  {
+   "fieldname": "inidicators",
+   "fieldtype": "Table",
+   "label": "Inidicators",
+   "options": "Indicator"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-06-11 16:49:14.306092",
+ "modified": "2021-06-11 15:26:20.821704",
  "modified_by": "Administrator",
- "module": "ATASP Connect",
- "name": "Zone",
+ "module": "KPI",
+ "name": "Indicator Group",
+ "name_case": "Title Case",
  "owner": "Administrator",
  "permissions": [
   {
