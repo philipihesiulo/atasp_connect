@@ -35,6 +35,15 @@
   {
    "hidden": 0,
    "is_query_report": 0,
+   "label": "Quarterly Performance Data",
+   "link_to": "Quarterly Performance Data",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
    "label": "Key Performance Indicators",
    "link_type": "DocType",
    "onboard": 0,
@@ -92,9 +101,35 @@
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Year",
+   "link_to": "Year",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Reports",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Zonal Quarterly Report",
+   "link_to": "Zonal Quarterly Report",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
   }
  ],
- "modified": "2021-06-11 16:59:36.343391",
+ "modified": "2021-08-10 15:25:12.751992",
  "modified_by": "Administrator",
  "module": "Monitoring & Evaluation",
  "name": "ATASP M&E",

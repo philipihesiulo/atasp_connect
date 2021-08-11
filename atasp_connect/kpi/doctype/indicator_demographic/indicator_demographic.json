@@ -1,38 +1,38 @@
 {
  "actions": [],
- "autoname": "format:{year_title}",
- "creation": "2021-06-11 16:28:41.883394",
+ "autoname": "field:demo",
+ "creation": "2021-07-21 14:30:28.306019",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "year_title",
-  "start_date",
-  "end_date"
+  "demo",
+  "unit"
  ],
  "fields": [
   {
-   "fieldname": "year_title",
+   "fieldname": "demo",
    "fieldtype": "Data",
-   "label": "Year Title"
+   "in_list_view": 1,
+   "label": "Demographic",
+   "reqd": 1,
+   "unique": 1
   },
   {
-   "fieldname": "start_date",
-   "fieldtype": "Date",
-   "label": "Start Date"
-  },
-  {
-   "fieldname": "end_date",
-   "fieldtype": "Date",
-   "label": "End Date"
+   "fieldname": "unit",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Unit",
+   "options": "Demographic Unit",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-07-21 10:19:45.076986",
+ "modified": "2021-07-21 14:30:37.619851",
  "modified_by": "Administrator",
  "module": "KPI",
- "name": "Year",
+ "name": "Indicator Demographic",
  "owner": "Administrator",
  "permissions": [
   {

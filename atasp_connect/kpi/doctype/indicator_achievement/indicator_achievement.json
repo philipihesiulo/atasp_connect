@@ -1,15 +1,14 @@
 {
  "actions": [],
  "autoname": "format:{indicator}",
- "creation": "2021-06-11 16:37:22.588989",
+ "creation": "2021-08-10 15:00:28.702991",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
   "indicator",
   "demo",
-  "baseline",
-  "target"
+  "achieve"
  ],
  "fields": [
   {
@@ -21,35 +20,28 @@
    "reqd": 1
   },
   {
-   "fieldname": "target",
-   "fieldtype": "Int",
-   "in_list_view": 1,
-   "label": "Target",
-   "reqd": 1
-  },
-  {
-   "fieldname": "baseline",
-   "fieldtype": "Int",
-   "in_list_view": 1,
-   "label": "Baseline",
-   "reqd": 1
-  },
-  {
    "fieldname": "demo",
    "fieldtype": "Link",
    "in_list_view": 1,
    "label": "Demographic",
    "options": "Indicator Demographic",
    "reqd": 1
+  },
+  {
+   "fieldname": "achieve",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Achievement",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2021-08-10 15:02:25.662221",
+ "modified": "2021-08-10 15:03:59.186765",
  "modified_by": "Administrator",
  "module": "KPI",
- "name": "Indicator Target",
+ "name": "Indicator Achievement",
  "owner": "Administrator",
  "permissions": [],
  "sort_field": "modified",

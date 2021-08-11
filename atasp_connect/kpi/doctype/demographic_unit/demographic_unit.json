@@ -1,38 +1,38 @@
 {
  "actions": [],
- "autoname": "format:{year_title}",
- "creation": "2021-06-11 16:28:41.883394",
+ "autoname": "field:abbr",
+ "creation": "2021-07-21 14:26:14.525587",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "year_title",
-  "start_date",
-  "end_date"
+  "unit_name",
+  "abbr"
  ],
  "fields": [
   {
-   "fieldname": "year_title",
+   "fieldname": "unit_name",
    "fieldtype": "Data",
-   "label": "Year Title"
+   "in_list_view": 1,
+   "label": "Unit",
+   "reqd": 1
   },
   {
-   "fieldname": "start_date",
-   "fieldtype": "Date",
-   "label": "Start Date"
-  },
-  {
-   "fieldname": "end_date",
-   "fieldtype": "Date",
-   "label": "End Date"
+   "fieldname": "abbr",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Abbreviation",
+   "reqd": 1,
+   "unique": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-07-21 10:19:45.076986",
+ "modified": "2021-07-21 14:29:12.057887",
  "modified_by": "Administrator",
  "module": "KPI",
- "name": "Year",
+ "name": "Demographic Unit",
+ "name_case": "UPPER CASE",
  "owner": "Administrator",
  "permissions": [
   {

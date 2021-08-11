@@ -30,6 +30,7 @@
    "label": "Targets"
   },
   {
+   "columns": 4,
    "fieldname": "targets",
    "fieldtype": "Table",
    "label": "Targets",
@@ -38,7 +39,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-06-11 16:37:57.668436",
+ "modified": "2021-07-22 14:26:09.621844",
  "modified_by": "Administrator",
  "module": "KPI",
  "name": "LOP Target",
