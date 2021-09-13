@@ -7,3 +7,10 @@
 def execute(filters=None):
 	columns, data = [], []
 	return columns, data
+
+
+def get_columns():
+	return
+
+def get_data():
+	return
