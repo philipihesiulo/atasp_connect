@@ -1,14 +1,14 @@
 {
  "actions": [],
- "autoname": "format:{zone_name} -- {other_name}",
+ "autoname": "format:{zone_name}",
  "creation": "2021-05-26 10:01:32.863832",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
   "zone_name",
-  "abbr",
-  "other_name"
+  "region",
+  "states"
  ],
  "fields": [
   {
@@ -20,21 +20,21 @@
    "unique": 1
   },
   {
-   "fieldname": "abbr",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Abbreviation",
-   "reqd": 1
+   "fieldname": "states",
+   "fieldtype": "Table",
+   "label": "States",
+   "options": "State"
   },
   {
-   "fieldname": "other_name",
-   "fieldtype": "Data",
-   "label": "Other Name"
+   "fieldname": "region",
+   "fieldtype": "Select",
+   "label": "Region",
+   "options": "South-East\nSouth-West\nSouth-West\nNorth-Central\nNorth-West\nNorth-East"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-06-11 16:49:14.306092",
+ "modified": "2021-09-15 12:07:59.064933",
  "modified_by": "Administrator",
  "module": "ATASP Connect",
  "name": "Zone",

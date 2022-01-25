@@ -1,28 +1,25 @@
 {
  "actions": [],
- "autoname": "format:{state} -- {year}",
+ "autoname": "format:{Zone} - {year} - {quarter}",
  "creation": "2021-06-11 16:25:14.670252",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "state",
+  "zone",
   "year",
+  "quarter",
   "targets_section",
   "targets"
  ],
  "fields": [
   {
-   "fieldname": "state",
-   "fieldtype": "Link",
-   "label": "State",
-   "options": "State"
-  },
-  {
    "fieldname": "year",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Year",
-   "options": "Year"
+   "options": "Year",
+   "reqd": 1
   },
   {
    "fieldname": "targets_section",
@@ -34,12 +31,29 @@
    "fieldname": "targets",
    "fieldtype": "Table",
    "label": "Targets",
-   "options": "Indicator Target"
+   "options": "Indicator Target",
+   "reqd": 1
+  },
+  {
+   "fieldname": "zone",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Zone",
+   "options": "Zone",
+   "reqd": 1
+  },
+  {
+   "fieldname": "quarter",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Quarter",
+   "options": "First Quarter\nSecond Quarter\nThird Quarter\nFourth Quarter",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-07-22 14:26:09.621844",
+ "modified": "2021-09-15 11:35:08.572561",
  "modified_by": "Administrator",
  "module": "KPI",
  "name": "LOP Target",
