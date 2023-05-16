@@ -1,7 +1,8 @@
 {
  "actions": [],
- "autoname": "format:{state_name}",
- "creation": "2021-05-26 10:03:21.221367",
+ "allow_rename": 1,
+ "autoname": "field:state_name",
+ "creation": "2023-05-16 16:27:53.244184",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
@@ -13,25 +14,31 @@
   {
    "fieldname": "state_name",
    "fieldtype": "Data",
-   "label": "State Name"
+   "in_list_view": 1,
+   "label": "State Name",
+   "reqd": 1,
+   "unique": 1
   },
   {
    "fieldname": "abbr",
    "fieldtype": "Data",
-   "label": "Abbreviation"
+   "in_list_view": 1,
+   "label": "Abbreviation",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2021-09-15 11:42:09.596232",
+ "modified": "2023-05-16 16:27:53.244184",
  "modified_by": "Administrator",
  "module": "ATASP Connect",
- "name": "State",
+ "name": "Sub State",
  "name_case": "Title Case",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [],
  "sort_field": "modified",
  "sort_order": "DESC",
- "track_changes": 1
+ "states": []
 }

@@ -29,10 +29,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-07-21 10:19:45.076986",
+ "modified": "2023-05-16 17:48:19.270975",
  "modified_by": "Administrator",
  "module": "KPI",
  "name": "Year",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {
@@ -48,7 +49,9 @@
    "write": 1
   }
  ],
+ "quick_entry": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
+ "states": [],
  "track_changes": 1
 }

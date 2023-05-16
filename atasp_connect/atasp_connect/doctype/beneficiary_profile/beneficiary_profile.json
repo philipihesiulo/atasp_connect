@@ -1,12 +1,12 @@
 {
  "actions": [],
  "allow_guest_to_view": 1,
+ "autoname": "format:{first_name} -  {last_name} --- {state}",
  "creation": "2021-05-26 09:59:19.902109",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "column_break_1",
   "basic_info_section",
   "first_name",
   "last_name",
@@ -15,6 +15,7 @@
   "marital_status",
   "zone",
   "state",
+  "column_break_1",
   "lga",
   "community",
   "cluster",
@@ -30,7 +31,8 @@
   "lead_farmer",
   "lead_farmer_phone",
   "photo",
-  "is_published"
+  "is_published",
+  "geo"
  ],
  "fields": [
   {
@@ -161,14 +163,20 @@
   {
    "fieldname": "column_break_1",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "geo",
+   "fieldtype": "Geolocation",
+   "label": "Geo"
   }
  ],
  "is_published_field": "is_published",
  "links": [],
- "modified": "2021-05-26 11:53:05.286536",
+ "modified": "2023-05-16 16:41:47.643082",
  "modified_by": "Administrator",
  "module": "ATASP Connect",
  "name": "Beneficiary Profile",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {
@@ -187,5 +195,6 @@
  "route": "profile/beneficiary",
  "sort_field": "modified",
  "sort_order": "DESC",
+ "states": [],
  "track_changes": 1
 }

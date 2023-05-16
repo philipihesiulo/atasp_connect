@@ -1,0 +1,48 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"-HwlazEL5e\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Performance</span>\",\"col\":12}},{\"id\":\"HO-XbgrkEd\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"Hq-C3QhSdT\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Quick Actions</b></span>\",\"col\":12}},{\"id\":\"ea4BTNUR1z\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Submit Quarterly Outcome\",\"col\":4}},{\"id\":\"dqwG_BG7D9\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Zonal Performance Report\",\"col\":5}},{\"id\":\"NjGFP_N71h\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"5SAVrcMJ-f\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Outcome List</b></span>\",\"col\":12}},{\"id\":\"sq8OJbHW4C\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Recent Performance Summissions\",\"col\":12}}]",
+ "creation": "2022-12-04 00:23:35.313719",
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "table_2",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Performance",
+ "links": [],
+ "modified": "2023-05-16 19:40:45.210886",
+ "modified_by": "Administrator",
+ "module": "ATASP Connect",
+ "name": "Performance",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [
+  {
+   "document_type": "Quarterly Performance",
+   "label": "Recent Performance Summissions"
+  }
+ ],
+ "roles": [],
+ "sequence_id": 2.0,
+ "shortcuts": [
+  {
+   "color": "Green",
+   "doc_view": "New",
+   "format": "Open",
+   "label": "Submit Quarterly Outcome",
+   "link_to": "Quarterly Performance",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "View Zonal Performance Report",
+   "link_to": "Zonal Quarterly Report",
+   "type": "Report"
+  }
+ ],
+ "title": "Performance"
+}

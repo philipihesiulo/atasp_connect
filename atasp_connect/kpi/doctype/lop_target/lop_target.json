@@ -53,10 +53,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-09-15 11:35:08.572561",
+ "modified": "2023-05-16 19:35:40.496139",
  "modified_by": "Administrator",
  "module": "KPI",
  "name": "LOP Target",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {
@@ -74,5 +75,6 @@
  ],
  "sort_field": "modified",
  "sort_order": "DESC",
+ "states": [],
  "track_changes": 1
 }
