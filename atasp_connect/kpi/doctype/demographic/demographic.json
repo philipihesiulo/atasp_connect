@@ -1,37 +1,39 @@
 {
  "actions": [],
- "autoname": "format:{code} -- {group_name}",
- "creation": "2021-06-11 15:14:27.795306",
+ "autoname": "field:demo",
+ "creation": "2021-07-21 14:30:28.306019",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "group_name",
-  "code"
+  "demo",
+  "unit"
  ],
  "fields": [
   {
-   "fieldname": "group_name",
+   "fieldname": "demo",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "Group Name",
-   "reqd": 1
+   "label": "Demographic",
+   "reqd": 1,
+   "unique": 1
   },
   {
-   "fieldname": "code",
-   "fieldtype": "Data",
-   "label": "Code",
+   "fieldname": "unit",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Unit",
+   "options": "Demographic Unit",
    "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-05-16 23:49:50.009411",
+ "modified": "2023-05-17 01:04:17.759535",
  "modified_by": "Administrator",
  "module": "KPI",
- "name": "Indicator Group",
- "name_case": "Title Case",
- "naming_rule": "Expression",
+ "name": "Demographic",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {

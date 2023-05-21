@@ -1,0 +1,132 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"-HwlazEL5e\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Performance</span>\",\"col\":12}},{\"id\":\"HO-XbgrkEd\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"Hq-C3QhSdT\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Quick Actions</b></span>\",\"col\":12}},{\"id\":\"ea4BTNUR1z\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Submit Quarterly Outcome\",\"col\":4}},{\"id\":\"mVq9I3EGMc\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"VIew All Quarterly Performance Outcomes\",\"col\":4}},{\"id\":\"dqwG_BG7D9\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Zonal Performance Report\",\"col\":4}},{\"id\":\"NjGFP_N71h\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"oqbIeq7ZzB\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Beneficiary Profiles</b></span>\",\"col\":12}},{\"id\":\"OQIbypmHPn\",\"type\":\"card\",\"data\":{\"card_name\":\"-- \",\"col\":6}},{\"id\":\"V0lIg2GBR5\",\"type\":\"card\",\"data\":{\"card_name\":\"- \",\"col\":4}},{\"id\":\"MESF97rWnx\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"5SAVrcMJ-f\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Outcome List</b></span>\",\"col\":12}},{\"id\":\"sq8OJbHW4C\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Recent Performance Summissions\",\"col\":12}}]",
+ "creation": "2022-12-04 00:23:35.313719",
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "table_2",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Performance",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "- ",
+   "link_count": 3,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Farmers Profile",
+   "link_count": 0,
+   "link_to": "Beneficiary Profile",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Marketers Profile",
+   "link_count": 0,
+   "link_to": "Beneficiary Profile",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Processors Profile",
+   "link_count": 0,
+   "link_to": "Beneficiary Profile",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "-- ",
+   "link_count": 3,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Generic Benficiary Profile",
+   "link_count": 0,
+   "link_to": "Beneficiary Profile",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Agro-Input Dealers Profile",
+   "link_count": 0,
+   "link_to": "Beneficiary Profile",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Fabricators Profile",
+   "link_count": 0,
+   "link_to": "Beneficiary Profile",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2023-05-20 23:51:02.694746",
+ "modified_by": "Administrator",
+ "module": "Monitoring & Evaluation",
+ "name": "Performance",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [
+  {
+   "document_type": "Quarterly Performance",
+   "label": "Recent Performance Summissions"
+  }
+ ],
+ "roles": [],
+ "sequence_id": 2.0,
+ "shortcuts": [
+  {
+   "color": "Green",
+   "doc_view": "New",
+   "format": "Open",
+   "label": "Submit Quarterly Outcome",
+   "link_to": "Quarterly Performance",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "VIew All Quarterly Performance Outcomes",
+   "link_to": "Quarterly Performance",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "View Zonal Performance Report",
+   "link_to": "Zonal Quarterly Report",
+   "type": "Report"
+  }
+ ],
+ "title": "Performance"
+}

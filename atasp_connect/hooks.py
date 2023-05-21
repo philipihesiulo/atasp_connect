@@ -15,6 +15,7 @@ app_license = "MIT"
 # ------------------
 
 app_logo_url = '/assets/atasp_connect/images/logo.png'
+app_logo_width = 100
 
 website_context = {
 	"favicon": 	"/assets/atasp_connect/images/favicon.png",
@@ -183,3 +184,6 @@ user_data_fields = [
 # 	"atasp_connect.auth.validate"
 # ]
 
+fixtures = [
+    "Navbar Settings"
+]

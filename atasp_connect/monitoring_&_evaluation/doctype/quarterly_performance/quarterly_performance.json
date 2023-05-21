@@ -1,6 +1,6 @@
 {
  "actions": [],
- "autoname": "format:{indicator} -- {quarter} -- {year}",
+ "autoname": "field:zone",
  "creation": "2021-08-10 13:36:21.763815",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -8,10 +8,13 @@
  "field_order": [
   "zone",
   "year",
+  "column_break_6c1w4",
   "quarter",
   "indicator",
   "section_break_5",
   "achievements",
+  "outcome",
+  "date_submitted",
   "amended_from"
  ],
  "fields": [
@@ -19,8 +22,10 @@
    "fieldname": "zone",
    "fieldtype": "Link",
    "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Zone",
    "options": "Zone",
+   "read_only": 1,
    "reqd": 1,
    "unique": 1
   },
@@ -28,6 +33,7 @@
    "fieldname": "year",
    "fieldtype": "Link",
    "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Year",
    "options": "Year",
    "reqd": 1
@@ -36,8 +42,9 @@
    "fieldname": "quarter",
    "fieldtype": "Select",
    "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Quarter",
-   "options": "First Quarter\nSecond Quarter\nThird Quarter\nForth Quarter",
+   "options": "\nFirst Quarter\nSecond Quarter\nThird Quarter\nFourth Quarter",
    "reqd": 1
   },
   {
@@ -62,24 +69,49 @@
   },
   {
    "fieldname": "indicator",
-   "fieldtype": "Select",
+   "fieldtype": "Link",
    "label": "Indicator",
    "options": "Indicator",
+   "reqd": 1,
+   "set_only_once": 1,
+   "unique": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "outcome",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Total Outcome",
+   "read_only": 1,
    "reqd": 1
+  },
+  {
+   "fieldname": "column_break_6c1w4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date_submitted",
+   "fieldtype": "Datetime",
+   "hidden": 1,
+   "in_list_view": 1,
+   "label": "Date Submitted",
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-05-16 19:34:31.554849",
+ "modified": "2023-05-21 13:21:49.228189",
  "modified_by": "Administrator",
  "module": "Monitoring & Evaluation",
  "name": "Quarterly Performance",
  "name_case": "Title Case",
- "naming_rule": "Expression",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
+   "amend": 1,
+   "cancel": 1,
    "create": 1,
    "delete": 1,
    "email": 1,
@@ -88,7 +120,9 @@
    "read": 1,
    "report": 1,
    "role": "System Manager",
+   "select": 1,
    "share": 1,
+   "submit": 1,
    "write": 1
   }
  ],

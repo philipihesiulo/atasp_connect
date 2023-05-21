@@ -4,5 +4,5 @@
 # import frappe
 import unittest
 
-class TestIndicatorDemographic(unittest.TestCase):
+class TestDemographic(unittest.TestCase):
 	pass
