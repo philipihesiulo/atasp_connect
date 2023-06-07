@@ -1,6 +1,6 @@
 {
  "actions": [],
- "autoname": "field:zone",
+ "autoname": "format:{indicator} - {zone} - {year} - {quarter}",
  "creation": "2021-08-10 13:36:21.763815",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -26,8 +26,7 @@
    "label": "Zone",
    "options": "Zone",
    "read_only": 1,
-   "reqd": 1,
-   "unique": 1
+   "reqd": 1
   },
   {
    "fieldname": "year",
@@ -73,8 +72,7 @@
    "label": "Indicator",
    "options": "Indicator",
    "reqd": 1,
-   "set_only_once": 1,
-   "unique": 1
+   "set_only_once": 1
   },
   {
    "default": "0",
@@ -101,12 +99,12 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-05-21 13:21:49.228189",
+ "modified": "2023-06-07 10:11:34.017377",
  "modified_by": "Administrator",
  "module": "Monitoring & Evaluation",
  "name": "Quarterly Performance",
  "name_case": "Title Case",
- "naming_rule": "By fieldname",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {

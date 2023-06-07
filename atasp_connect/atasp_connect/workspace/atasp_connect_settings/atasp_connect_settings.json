@@ -1,0 +1,42 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"2yxUJ6v0U6\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">ATASP Connect Settings</span>\",\"col\":12}},{\"id\":\"AsZ9YPDqHy\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Create New User\",\"col\":3}},{\"id\":\"wJBx0kGSwo\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"ATASP Connect Users\",\"col\":3}}]",
+ "creation": "2023-05-17 11:35:08.367841",
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "setting-gear",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "ATASP Connect Settings",
+ "links": [],
+ "modified": "2023-05-21 17:01:30.786422",
+ "modified_by": "Administrator",
+ "module": "ATASP Connect",
+ "name": "ATASP Connect Settings",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 5.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "Create New User",
+   "link_to": "ATASP Connect User",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "ATASP Connect Users",
+   "link_to": "ATASP Connect User",
+   "type": "DocType"
+  }
+ ],
+ "title": "ATASP Connect Settings"
+}

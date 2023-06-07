@@ -80,9 +80,11 @@ home_page = "login"
 # -----------
 # Permissions evaluated in scripted ways
 
-# permission_query_conditions = {
-# 	"Event": "frappe.desk.doctype.event.event.get_permission_query_conditions",
-# }
+permission_query_conditions = {
+	"Quarterly Performance": "atasp_connect.permissions.quarterly_performance_query",
+	"Zone": "atasp_connect.permissions.zone_query",
+	"Role": "atasp_connect.permissions.role_query",
+}
 #
 # has_permission = {
 # 	"Event": "frappe.desk.doctype.event.event.has_permission",
@@ -185,5 +187,7 @@ user_data_fields = [
 # ]
 
 fixtures = [
-    "Navbar Settings"
+    "Navbar Settings",
+	"Website Settings",
+	{"dt": "Role", "filters": [["is_custom", "=", 1]]}
 ]

@@ -6,7 +6,7 @@
   "help_dropdown": [
    {
     "action": "frappe.ui.toolbar.show_about()",
-    "hidden": 0,
+    "hidden": 1,
     "is_standard": 1,
     "item_label": "About",
     "item_type": "Action",
@@ -39,7 +39,7 @@
    }
   ],
   "logo_width": 50,
-  "modified": "2023-05-17 01:18:45.040867",
+  "modified": "2023-05-17 01:22:39.109726",
   "name": "Navbar Settings",
   "settings_dropdown": [
    {

@@ -19,11 +19,12 @@ frappe.ui.form.on('Quarterly Performance', {
 		}
 
 		// Set users zone
-		const logged_in_user = frappe.session.user;
-		const atasp_user = await frappe.db.get_doc('ATASP Connect User', logged_in_user);
-		const zone = atasp_user.zone;
-		frm.set_value('zone', zone);
-
+		if (frm.doc.__unsaved) {
+			const logged_in_user = frappe.session.user;
+			const atasp_user = await frappe.db.get_doc('ATASP Connect User', logged_in_user);
+			const zone = atasp_user.zone;
+			frm.set_value('zone', zone);
+		}
 		//set active indicator's demographics and filter used demographics
 		if (frm.doc.indicator) {
 			indicator_demo = await get_indicator_demo(frm.doc.indicator);
