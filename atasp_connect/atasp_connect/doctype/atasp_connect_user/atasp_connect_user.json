@@ -49,9 +49,8 @@
    "unique": 1
   }
  ],
- "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-05-17 12:32:45.859935",
+ "modified": "2023-06-08 14:21:59.834382",
  "modified_by": "Administrator",
  "module": "ATASP Connect",
  "name": "ATASP Connect User",
@@ -70,6 +69,58 @@
    "role": "System Manager",
    "share": 1,
    "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Data Collection Agent",
+   "share": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "National M&E Officer",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "National Programme Coordinator",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Zonal M&E Officer",
+   "share": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Zonal Programme Coordinator",
+   "share": 1
   }
  ],
  "quick_entry": 1,

@@ -189,5 +189,7 @@ user_data_fields = [
 fixtures = [
     "Navbar Settings",
 	"Website Settings",
+	"Workspace",
+	"Custom DocPerm",
 	{"dt": "Role", "filters": [["is_custom", "=", 1]]}
 ]
