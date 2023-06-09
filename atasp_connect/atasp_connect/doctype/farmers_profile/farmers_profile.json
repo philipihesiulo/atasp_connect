@@ -14,8 +14,6 @@
   "age",
   "sex",
   "marital_status",
-  "zone",
-  "state",
   "column_break_1",
   "lga",
   "community",
@@ -65,18 +63,6 @@
    "fieldtype": "Select",
    "label": "Marital Status",
    "options": "Single\nMarried\nDivorced\nWidowed"
-  },
-  {
-   "fieldname": "zone",
-   "fieldtype": "Select",
-   "label": "Zone",
-   "options": "\nAdani-Omor\nBida-Badagi\nKano-Jigawa\nKebbi-Sokoto"
-  },
-  {
-   "fieldname": "state",
-   "fieldtype": "Select",
-   "label": "State",
-   "options": "\nAnambra\nEnugu\nJigawa\nKano\nKebbi\nNiger\nSokoto"
   },
   {
    "fieldname": "column_break_1",
@@ -161,7 +147,7 @@
  ],
  "is_published_field": "is_published",
  "links": [],
- "modified": "2023-06-09 09:52:55.838980",
+ "modified": "2023-06-09 10:24:01.604747",
  "modified_by": "Administrator",
  "module": "ATASP Connect",
  "name": "Farmers Profile",
