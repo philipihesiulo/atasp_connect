@@ -96,7 +96,7 @@
    "type": "Link"
   }
  ],
- "modified": "2023-05-17 11:36:50.989978",
+ "modified": "2023-06-09 07:55:26.128716",
  "modified_by": "Administrator",
  "module": "KPI",
  "name": "Indicators",
@@ -114,7 +114,17 @@
    "label": "Indicator Groups"
   }
  ],
- "roles": [],
+ "roles": [
+  {
+   "role": "Administrator"
+  },
+  {
+   "role": "National M&E Officer"
+  },
+  {
+   "role": "National Programme Coordinator"
+  }
+ ],
  "sequence_id": 3.0,
  "shortcuts": [
   {

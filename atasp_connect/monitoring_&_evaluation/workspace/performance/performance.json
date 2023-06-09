@@ -24,7 +24,7 @@
    "is_query_report": 0,
    "label": "Farmers Profile",
    "link_count": 0,
-   "link_to": "Beneficiary Profile",
+   "link_to": "Generic Beneficiary Profile",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
@@ -34,7 +34,7 @@
    "is_query_report": 0,
    "label": "Marketers Profile",
    "link_count": 0,
-   "link_to": "Beneficiary Profile",
+   "link_to": "Generic Beneficiary Profile",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
@@ -44,7 +44,7 @@
    "is_query_report": 0,
    "label": "Processors Profile",
    "link_count": 0,
-   "link_to": "Beneficiary Profile",
+   "link_to": "Generic Beneficiary Profile",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
@@ -62,7 +62,7 @@
    "is_query_report": 0,
    "label": "Generic Benficiary Profile",
    "link_count": 0,
-   "link_to": "Beneficiary Profile",
+   "link_to": "Generic Beneficiary Profile",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
@@ -72,7 +72,7 @@
    "is_query_report": 0,
    "label": "Agro-Input Dealers Profile",
    "link_count": 0,
-   "link_to": "Beneficiary Profile",
+   "link_to": "Agro-Input Dealers Profile",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
@@ -82,13 +82,13 @@
    "is_query_report": 0,
    "label": "Fabricators Profile",
    "link_count": 0,
-   "link_to": "Beneficiary Profile",
+   "link_to": "Fabricators Profile",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
   }
  ],
- "modified": "2023-05-20 23:51:02.694746",
+ "modified": "2023-06-09 08:44:17.857896",
  "modified_by": "Administrator",
  "module": "Monitoring & Evaluation",
  "name": "Performance",

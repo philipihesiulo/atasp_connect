@@ -11,7 +11,7 @@
  "is_hidden": 0,
  "label": "ATASP Connect Settings",
  "links": [],
- "modified": "2023-05-21 17:01:30.786422",
+ "modified": "2023-06-09 07:56:52.523309",
  "modified_by": "Administrator",
  "module": "ATASP Connect",
  "name": "ATASP Connect Settings",
@@ -20,7 +20,17 @@
  "parent_page": "",
  "public": 1,
  "quick_lists": [],
- "roles": [],
+ "roles": [
+  {
+   "role": "Administrator"
+  },
+  {
+   "role": "National M&E Officer"
+  },
+  {
+   "role": "National Programme Coordinator"
+  }
+ ],
  "sequence_id": 5.0,
  "shortcuts": [
   {

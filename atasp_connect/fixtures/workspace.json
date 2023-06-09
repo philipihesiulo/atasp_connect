@@ -2869,7 +2869,7 @@
     "is_query_report": 0,
     "label": "Farmers Profile",
     "link_count": 0,
-    "link_to": "Beneficiary Profile",
+    "link_to": "Generic Beneficiary Profile",
     "link_type": "DocType",
     "onboard": 0,
     "only_for": null,
@@ -2885,7 +2885,7 @@
     "is_query_report": 0,
     "label": "Marketers Profile",
     "link_count": 0,
-    "link_to": "Beneficiary Profile",
+    "link_to": "Generic Beneficiary Profile",
     "link_type": "DocType",
     "onboard": 0,
     "only_for": null,
@@ -2901,7 +2901,7 @@
     "is_query_report": 0,
     "label": "Processors Profile",
     "link_count": 0,
-    "link_to": "Beneficiary Profile",
+    "link_to": "Generic Beneficiary Profile",
     "link_type": "DocType",
     "onboard": 0,
     "only_for": null,
@@ -2933,7 +2933,7 @@
     "is_query_report": 0,
     "label": "Generic Benficiary Profile",
     "link_count": 0,
-    "link_to": "Beneficiary Profile",
+    "link_to": "Generic Beneficiary Profile",
     "link_type": "DocType",
     "onboard": 0,
     "only_for": null,
@@ -2949,7 +2949,7 @@
     "is_query_report": 0,
     "label": "Agro-Input Dealers Profile",
     "link_count": 0,
-    "link_to": "Beneficiary Profile",
+    "link_to": "Agro-Input Dealers Profile",
     "link_type": "DocType",
     "onboard": 0,
     "only_for": null,
@@ -2965,7 +2965,7 @@
     "is_query_report": 0,
     "label": "Fabricators Profile",
     "link_count": 0,
-    "link_to": "Beneficiary Profile",
+    "link_to": "Fabricators Profile",
     "link_type": "DocType",
     "onboard": 0,
     "only_for": null,
@@ -2975,7 +2975,7 @@
     "type": "Link"
    }
   ],
-  "modified": "2023-05-20 23:51:02.694746",
+  "modified": "2023-06-09 08:44:17.857896",
   "module": "Monitoring & Evaluation",
   "name": "Performance",
   "number_cards": [],
@@ -3196,7 +3196,7 @@
     "type": "Link"
    }
   ],
-  "modified": "2023-05-17 11:36:50.989978",
+  "modified": "2023-06-09 07:55:26.128716",
   "module": "KPI",
   "name": "Indicators",
   "number_cards": [],
@@ -3221,7 +3221,26 @@
    }
   ],
   "restrict_to_domain": null,
-  "roles": [],
+  "roles": [
+   {
+    "parent": "Indicators",
+    "parentfield": "roles",
+    "parenttype": "Workspace",
+    "role": "Administrator"
+   },
+   {
+    "parent": "Indicators",
+    "parentfield": "roles",
+    "parenttype": "Workspace",
+    "role": "National M&E Officer"
+   },
+   {
+    "parent": "Indicators",
+    "parentfield": "roles",
+    "parenttype": "Workspace",
+    "role": "National Programme Coordinator"
+   }
+  ],
   "sequence_id": 3.0,
   "shortcuts": [
    {
@@ -3497,7 +3516,7 @@
     "type": "Link"
    }
   ],
-  "modified": "2023-05-17 11:36:51.197100",
+  "modified": "2023-06-09 07:56:13.028915",
   "module": "ATASP Connect",
   "name": "Charts & Reports",
   "number_cards": [],
@@ -3505,7 +3524,26 @@
   "public": 1,
   "quick_lists": [],
   "restrict_to_domain": null,
-  "roles": [],
+  "roles": [
+   {
+    "parent": "Charts & Reports",
+    "parentfield": "roles",
+    "parenttype": "Workspace",
+    "role": "Administrator"
+   },
+   {
+    "parent": "Charts & Reports",
+    "parentfield": "roles",
+    "parenttype": "Workspace",
+    "role": "National M&E Officer"
+   },
+   {
+    "parent": "Charts & Reports",
+    "parentfield": "roles",
+    "parenttype": "Workspace",
+    "role": "National Programme Coordinator"
+   }
+  ],
   "sequence_id": 4.0,
   "shortcuts": [
    {
@@ -3578,7 +3616,7 @@
   "is_hidden": 0,
   "label": "ATASP Connect Settings",
   "links": [],
-  "modified": "2023-05-21 17:01:30.786422",
+  "modified": "2023-06-09 07:56:52.523309",
   "module": "ATASP Connect",
   "name": "ATASP Connect Settings",
   "number_cards": [],
@@ -3586,7 +3624,26 @@
   "public": 1,
   "quick_lists": [],
   "restrict_to_domain": null,
-  "roles": [],
+  "roles": [
+   {
+    "parent": "ATASP Connect Settings",
+    "parentfield": "roles",
+    "parenttype": "Workspace",
+    "role": "Administrator"
+   },
+   {
+    "parent": "ATASP Connect Settings",
+    "parentfield": "roles",
+    "parenttype": "Workspace",
+    "role": "National M&E Officer"
+   },
+   {
+    "parent": "ATASP Connect Settings",
+    "parentfield": "roles",
+    "parenttype": "Workspace",
+    "role": "National Programme Coordinator"
+   }
+  ],
   "sequence_id": 5.0,
   "shortcuts": [
    {

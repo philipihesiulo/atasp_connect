@@ -2,7 +2,8 @@
  "actions": [],
  "allow_guest_to_view": 1,
  "autoname": "format:{first_name} -  {last_name} --- {state}",
- "creation": "2021-05-26 09:59:19.902109",
+ "creation": "2023-06-09 08:15:09.555183",
+ "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
@@ -36,6 +37,11 @@
  ],
  "fields": [
   {
+   "fieldname": "basic_info_section",
+   "fieldtype": "Section Break",
+   "label": "Basic Info"
+  },
+  {
    "fieldname": "first_name",
    "fieldtype": "Data",
    "label": "First Name"
@@ -63,21 +69,18 @@
    "options": "Single\nMarried\nDivorced\nWidowed"
   },
   {
-   "fieldname": "basic_info_section",
-   "fieldtype": "Section Break",
-   "label": "Basic Info"
-  },
-  {
    "fieldname": "zone",
-   "fieldtype": "Link",
-   "label": "Zone",
-   "options": "Zone"
+   "fieldtype": "Data",
+   "label": "Zone"
   },
   {
    "fieldname": "state",
-   "fieldtype": "Link",
-   "label": "State",
-   "options": "State"
+   "fieldtype": "Data",
+   "label": "State"
+  },
+  {
+   "fieldname": "column_break_1",
+   "fieldtype": "Column Break"
   },
   {
    "fieldname": "lga",
@@ -161,10 +164,6 @@
    "label": "Is Published"
   },
   {
-   "fieldname": "column_break_1",
-   "fieldtype": "Column Break"
-  },
-  {
    "fieldname": "geo",
    "fieldtype": "Geolocation",
    "label": "Geo"
@@ -172,10 +171,10 @@
  ],
  "is_published_field": "is_published",
  "links": [],
- "modified": "2023-05-16 16:41:47.643082",
+ "modified": "2023-06-09 08:41:07.868561",
  "modified_by": "Administrator",
  "module": "ATASP Connect",
- "name": "Beneficiary Profile",
+ "name": "Farmers Profile",
  "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
@@ -188,6 +187,18 @@
    "read": 1,
    "report": 1,
    "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "All",
    "share": 1,
    "write": 1
   }

@@ -75,7 +75,7 @@
    "type": "Link"
   }
  ],
- "modified": "2023-05-17 11:36:51.197100",
+ "modified": "2023-06-09 07:56:13.028915",
  "modified_by": "Administrator",
  "module": "ATASP Connect",
  "name": "Charts & Reports",
@@ -84,7 +84,17 @@
  "parent_page": "",
  "public": 1,
  "quick_lists": [],
- "roles": [],
+ "roles": [
+  {
+   "role": "Administrator"
+  },
+  {
+   "role": "National M&E Officer"
+  },
+  {
+   "role": "National Programme Coordinator"
+  }
+ ],
  "sequence_id": 4.0,
  "shortcuts": [
   {
