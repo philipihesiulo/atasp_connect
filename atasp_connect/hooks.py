@@ -190,6 +190,11 @@ fixtures = [
     "Navbar Settings",
 	"Website Settings",
 	"Workspace",
+	"Indicator",
+	"Indicator Demographic",
+	"Indicator Target",
+	"Indicator Group",
 	"Custom DocPerm",
+	"Year",
 	{"dt": "Role", "filters": [["is_custom", "=", 1]]}
 ]

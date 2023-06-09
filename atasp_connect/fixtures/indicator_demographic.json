@@ -1,0 +1,82 @@
+[
+ {
+  "demographic": "Female",
+  "docstatus": 0,
+  "doctype": "Indicator Demographic",
+  "modified": "2023-05-17 08:59:39.327161",
+  "name": "0aaaee82e6",
+  "parent": "No of Direct Beneficiaries",
+  "parentfield": "demographic",
+  "parenttype": "Indicator"
+ },
+ {
+  "demographic": "Male",
+  "docstatus": 0,
+  "doctype": "Indicator Demographic",
+  "modified": "2023-05-17 08:58:39.922862",
+  "name": "b25b329538",
+  "parent": "Number of producers trained in technical skills",
+  "parentfield": "demographic",
+  "parenttype": "Indicator"
+ },
+ {
+  "demographic": "Rice",
+  "docstatus": 0,
+  "doctype": "Indicator Demographic",
+  "modified": "2023-05-17 11:01:39.537471",
+  "name": "a7e1d86e7f",
+  "parent": "Area Under Production",
+  "parentfield": "demographic",
+  "parenttype": "Indicator"
+ },
+ {
+  "demographic": "All",
+  "docstatus": 0,
+  "doctype": "Indicator Demographic",
+  "modified": "2023-05-17 14:09:21.134619",
+  "name": "a3772420a6",
+  "parent": "Programme Financial Performance",
+  "parentfield": "demographic",
+  "parenttype": "Indicator"
+ },
+ {
+  "demographic": "Male",
+  "docstatus": 0,
+  "doctype": "Indicator Demographic",
+  "modified": "2023-05-17 08:59:39.327161",
+  "name": "f5cbc3c6b4",
+  "parent": "No of Direct Beneficiaries",
+  "parentfield": "demographic",
+  "parenttype": "Indicator"
+ },
+ {
+  "demographic": "Female",
+  "docstatus": 0,
+  "doctype": "Indicator Demographic",
+  "modified": "2023-05-17 08:58:39.922862",
+  "name": "8ab9e0ae67",
+  "parent": "Number of producers trained in technical skills",
+  "parentfield": "demographic",
+  "parenttype": "Indicator"
+ },
+ {
+  "demographic": "Cassava",
+  "docstatus": 0,
+  "doctype": "Indicator Demographic",
+  "modified": "2023-05-17 11:01:39.537471",
+  "name": "db2dead68b",
+  "parent": "Area Under Production",
+  "parentfield": "demographic",
+  "parenttype": "Indicator"
+ },
+ {
+  "demographic": "Sorghum",
+  "docstatus": 0,
+  "doctype": "Indicator Demographic",
+  "modified": "2023-05-17 11:01:39.537471",
+  "name": "8b2e9ebe75",
+  "parent": "Area Under Production",
+  "parentfield": "demographic",
+  "parenttype": "Indicator"
+ }
+]

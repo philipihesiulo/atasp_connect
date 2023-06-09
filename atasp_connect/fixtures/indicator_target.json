@@ -1,0 +1,28 @@
+[
+ {
+  "baseline": 20,
+  "demo": "Cassava",
+  "docstatus": 0,
+  "doctype": "Indicator Target",
+  "indicator": "Area Under Production",
+  "modified": "2023-05-17 14:20:01.685741",
+  "name": "Area Under Production",
+  "parent": "Zone - 2023 - First Quarter",
+  "parentfield": "targets",
+  "parenttype": "LOP Target",
+  "target": 43
+ },
+ {
+  "baseline": 15,
+  "demo": "Male",
+  "docstatus": 0,
+  "doctype": "Indicator Target",
+  "indicator": "No of Direct Beneficiaries",
+  "modified": "2023-05-17 14:20:01.685741",
+  "name": "No of Direct Beneficiaries",
+  "parent": "Zone - 2023 - First Quarter",
+  "parentfield": "targets",
+  "parenttype": "LOP Target",
+  "target": 16
+ }
+]

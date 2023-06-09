@@ -1,0 +1,90 @@
+[
+ {
+  "demographic": [
+   {
+    "demographic": "Female",
+    "parent": "No of Direct Beneficiaries",
+    "parentfield": "demographic",
+    "parenttype": "Indicator"
+   },
+   {
+    "demographic": "Male",
+    "parent": "No of Direct Beneficiaries",
+    "parentfield": "demographic",
+    "parenttype": "Indicator"
+   }
+  ],
+  "docstatus": 0,
+  "doctype": "Indicator",
+  "indicator_group": "A -- Program Impacts/Outcomes",
+  "indicator_name": "No of Direct Beneficiaries",
+  "modified": "2023-05-17 08:59:39.327161",
+  "name": "No of Direct Beneficiaries"
+ },
+ {
+  "demographic": [
+   {
+    "demographic": "Male",
+    "parent": "Number of producers trained in technical skills",
+    "parentfield": "demographic",
+    "parenttype": "Indicator"
+   },
+   {
+    "demographic": "Female",
+    "parent": "Number of producers trained in technical skills",
+    "parentfield": "demographic",
+    "parenttype": "Indicator"
+   }
+  ],
+  "docstatus": 0,
+  "doctype": "Indicator",
+  "indicator_group": "C -- Commodity Value Chain:Outputs",
+  "indicator_name": "Number of producers trained in technical skills",
+  "modified": "2023-05-17 08:58:39.922862",
+  "name": "Number of producers trained in technical skills"
+ },
+ {
+  "demographic": [
+   {
+    "demographic": "Rice",
+    "parent": "Area Under Production",
+    "parentfield": "demographic",
+    "parenttype": "Indicator"
+   },
+   {
+    "demographic": "Cassava",
+    "parent": "Area Under Production",
+    "parentfield": "demographic",
+    "parenttype": "Indicator"
+   },
+   {
+    "demographic": "Sorghum",
+    "parent": "Area Under Production",
+    "parentfield": "demographic",
+    "parenttype": "Indicator"
+   }
+  ],
+  "docstatus": 0,
+  "doctype": "Indicator",
+  "indicator_group": "C -- Commodity Value Chain:Outputs",
+  "indicator_name": " Area Under Production",
+  "modified": "2023-05-17 11:01:39.537471",
+  "name": "Area Under Production"
+ },
+ {
+  "demographic": [
+   {
+    "demographic": "All",
+    "parent": "Programme Financial Performance",
+    "parentfield": "demographic",
+    "parenttype": "Indicator"
+   }
+  ],
+  "docstatus": 0,
+  "doctype": "Indicator",
+  "indicator_group": "D -- Program Management: Outputs",
+  "indicator_name": "Programme Financial Performance",
+  "modified": "2023-05-17 14:09:21.134619",
+  "name": "Programme Financial Performance"
+ }
+]
