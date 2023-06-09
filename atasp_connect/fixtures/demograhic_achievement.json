@@ -1,0 +1,101 @@
+[
+ {
+  "achievement": 257,
+  "demo": "Cassava",
+  "docstatus": 1,
+  "doctype": "Demograhic Achievement",
+  "modified": "2023-05-21 21:28:48.565691",
+  "name": "8f59992149",
+  "parent": "Area Under Production - Kebbi-Sokoto - 2023 - First Quarter",
+  "parentfield": "achievements",
+  "parenttype": "Quarterly Performance"
+ },
+ {
+  "achievement": 43,
+  "demo": "Cassava",
+  "docstatus": 1,
+  "doctype": "Demograhic Achievement",
+  "modified": "2023-05-21 23:37:39.449340",
+  "name": "c6588e3fb5",
+  "parent": "Area Under Production - Adanni-Omor - 2023 - First Quarter",
+  "parentfield": "achievements",
+  "parenttype": "Quarterly Performance"
+ },
+ {
+  "achievement": 21,
+  "demo": "Cassava",
+  "docstatus": 0,
+  "doctype": "Demograhic Achievement",
+  "modified": "2023-06-07 10:12:54.317633",
+  "name": "dc703f118a",
+  "parent": "Area Under Production - Adanni-Omor - 2023 - Fourth Quarter",
+  "parentfield": "achievements",
+  "parenttype": "Quarterly Performance"
+ },
+ {
+  "achievement": 77,
+  "demo": "Female",
+  "docstatus": 0,
+  "doctype": "Demograhic Achievement",
+  "modified": "2023-06-07 10:18:02.348317",
+  "name": "1cb2c27e59",
+  "parent": "Number of producers trained in technical skills - Adanni-Omor - 2023 - Third Quarter",
+  "parentfield": "achievements",
+  "parenttype": "Quarterly Performance"
+ },
+ {
+  "achievement": 521,
+  "demo": "Sorghum",
+  "docstatus": 1,
+  "doctype": "Demograhic Achievement",
+  "modified": "2023-05-21 21:28:48.565691",
+  "name": "a5daa787e4",
+  "parent": "Area Under Production - Kebbi-Sokoto - 2023 - First Quarter",
+  "parentfield": "achievements",
+  "parenttype": "Quarterly Performance"
+ },
+ {
+  "achievement": 15,
+  "demo": "Rice",
+  "docstatus": 1,
+  "doctype": "Demograhic Achievement",
+  "modified": "2023-05-21 23:37:39.449340",
+  "name": "a39aa5bf42",
+  "parent": "Area Under Production - Adanni-Omor - 2023 - First Quarter",
+  "parentfield": "achievements",
+  "parenttype": "Quarterly Performance"
+ },
+ {
+  "achievement": 37,
+  "demo": "Rice",
+  "docstatus": 0,
+  "doctype": "Demograhic Achievement",
+  "modified": "2023-06-07 10:12:54.317633",
+  "name": "b7971e17fc",
+  "parent": "Area Under Production - Adanni-Omor - 2023 - Fourth Quarter",
+  "parentfield": "achievements",
+  "parenttype": "Quarterly Performance"
+ },
+ {
+  "achievement": 231,
+  "demo": "Rice",
+  "docstatus": 1,
+  "doctype": "Demograhic Achievement",
+  "modified": "2023-05-21 21:28:48.565691",
+  "name": "ae6244a61a",
+  "parent": "Area Under Production - Kebbi-Sokoto - 2023 - First Quarter",
+  "parentfield": "achievements",
+  "parenttype": "Quarterly Performance"
+ },
+ {
+  "achievement": 35,
+  "demo": "Sorghum",
+  "docstatus": 1,
+  "doctype": "Demograhic Achievement",
+  "modified": "2023-05-21 23:37:39.449340",
+  "name": "28e2f36d5e",
+  "parent": "Area Under Production - Adanni-Omor - 2023 - First Quarter",
+  "parentfield": "achievements",
+  "parenttype": "Quarterly Performance"
+ }
+]

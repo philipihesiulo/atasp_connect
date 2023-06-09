@@ -194,6 +194,9 @@ fixtures = [
 	"Indicator Demographic",
 	"Indicator Target",
 	"Indicator Group",
+	"Demograhic Achievement",
+	"Demographic",
+	"Demographic Unit",
 	"Custom DocPerm",
 	"Year",
 	{"dt": "Role", "filters": [["is_custom", "=", 1]]}
