@@ -24,8 +24,6 @@
   "farm_size",
   "oavc",
   "gps_coordinates_section",
-  "lat",
-  "long",
   "contact_section",
   "phone",
   "farm_org",
@@ -70,13 +68,15 @@
   },
   {
    "fieldname": "zone",
-   "fieldtype": "Data",
-   "label": "Zone"
+   "fieldtype": "Select",
+   "label": "Zone",
+   "options": "\nAdani-Omor\nBida-Badagi\nKano-Jigawa\nKebbi-Sokoto"
   },
   {
    "fieldname": "state",
-   "fieldtype": "Data",
-   "label": "State"
+   "fieldtype": "Select",
+   "label": "State",
+   "options": "\nAnambra\nEnugu\nJigawa\nKano\nKebbi\nNiger\nSokoto"
   },
   {
    "fieldname": "column_break_1",
@@ -116,16 +116,6 @@
    "fieldname": "gps_coordinates_section",
    "fieldtype": "Section Break",
    "label": "GPS Coordinates"
-  },
-  {
-   "fieldname": "lat",
-   "fieldtype": "Float",
-   "label": "Latitude"
-  },
-  {
-   "fieldname": "long",
-   "fieldtype": "Float",
-   "label": "Longitude"
   },
   {
    "fieldname": "contact_section",
@@ -171,7 +161,7 @@
  ],
  "is_published_field": "is_published",
  "links": [],
- "modified": "2023-06-09 08:41:07.868561",
+ "modified": "2023-06-09 09:52:55.838980",
  "modified_by": "Administrator",
  "module": "ATASP Connect",
  "name": "Farmers Profile",
