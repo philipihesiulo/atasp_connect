@@ -16,7 +16,7 @@
  "list_columns": [],
  "login_required": 0,
  "max_attachment_size": 0,
- "modified": "2023-06-09 09:57:39.540729",
+ "modified": "2023-06-09 10:16:46.612901",
  "modified_by": "Administrator",
  "module": "Monitoring & Evaluation",
  "name": "farmers-beneficiary-profile",
@@ -86,19 +86,6 @@
    "max_length": 0,
    "max_value": 0,
    "options": "Single\nMarried\nDivorced\nWidowed",
-   "read_only": 0,
-   "reqd": 0,
-   "show_in_filter": 0
-  },
-  {
-   "allow_read_on_all_link_options": 0,
-   "fieldname": "zone",
-   "fieldtype": "Select",
-   "hidden": 0,
-   "label": "Zone",
-   "max_length": 0,
-   "max_value": 0,
-   "options": "\nAdani-Omor\nBida-Badagi\nKano-Jigawa\nKebbi-Sokoto",
    "read_only": 0,
    "reqd": 0,
    "show_in_filter": 0
