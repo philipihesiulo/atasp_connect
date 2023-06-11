@@ -14,6 +14,6 @@ def validate():
             error_message = _("Your ATASP Connect Account is not active")
             frappe.local.login_manager.logout()
             frappe.response.clear()
-            frappe.response["error"] = error_message
+            frappe.response["message"] = error_message
             #frappe.throw(error_message)
             
