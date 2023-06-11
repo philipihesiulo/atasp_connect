@@ -1,0 +1,188 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2023-06-10 02:59:01.670302",
+  "name": "Zonal M&E Officer",
+  "role_profile": "Zonal M&E Officer",
+  "roles": [
+   {
+    "parent": "Zonal M&E Officer",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Zonal Data Manager"
+   },
+   {
+    "parent": "Zonal M&E Officer",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Data Collection Agent"
+   },
+   {
+    "parent": "Zonal M&E Officer",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Inbox User"
+   },
+   {
+    "parent": "Zonal M&E Officer",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Prepared Report User"
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2023-06-10 03:16:17.398537",
+  "name": "Facilitator",
+  "role_profile": "Facilitator",
+  "roles": [
+   {
+    "parent": "Facilitator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Data Collection Agent"
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2023-06-10 03:23:13.835615",
+  "name": "Zonal Programme Coordinator",
+  "role_profile": "Zonal Programme Coordinator",
+  "roles": [
+   {
+    "parent": "Zonal Programme Coordinator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Prepared Report User"
+   },
+   {
+    "parent": "Zonal Programme Coordinator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Data Collection Agent"
+   },
+   {
+    "parent": "Zonal Programme Coordinator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Zonal Data Approver"
+   },
+   {
+    "parent": "Zonal Programme Coordinator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Zonal Data Manager"
+   },
+   {
+    "parent": "Zonal Programme Coordinator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Inbox User"
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2023-06-10 03:24:55.098013",
+  "name": "National M&E officer",
+  "role_profile": "National M&E officer",
+  "roles": [
+   {
+    "parent": "National M&E officer",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Zonal Data Manager"
+   },
+   {
+    "parent": "National M&E officer",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Data Collection Agent"
+   },
+   {
+    "parent": "National M&E officer",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "National Dashboard Viewer"
+   },
+   {
+    "parent": "National M&E officer",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Prepared Report User"
+   },
+   {
+    "parent": "National M&E officer",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Inbox User"
+   },
+   {
+    "parent": "National M&E officer",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "National Data Manager"
+   },
+   {
+    "parent": "National M&E officer",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Zonal Data Approver"
+   },
+   {
+    "parent": "National M&E officer",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Report Manager"
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2023-06-10 03:25:53.989064",
+  "name": "National Programme Coordinator",
+  "role_profile": "National Programme Coordinator",
+  "roles": [
+   {
+    "parent": "National Programme Coordinator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Prepared Report User"
+   },
+   {
+    "parent": "National Programme Coordinator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "National Dashboard Viewer"
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2023-06-10 03:26:32.300110",
+  "name": "African Development Bank",
+  "role_profile": "African Development Bank",
+  "roles": [
+   {
+    "parent": "African Development Bank",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "National Dashboard Viewer"
+   },
+   {
+    "parent": "African Development Bank",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Prepared Report User"
+   }
+  ]
+ }
+]
