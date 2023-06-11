@@ -12,7 +12,7 @@ def validate():
             frappe.response["zone"] = atasp_connect_user.zone
             role_profile = user_account.role_profile_name
         
-            if role_profile == "":
+            if role_profile == "" or role_profile == None:
                 error_message = _("A role has not been set for your account")
                 frappe.throw(error_message)
             else:
