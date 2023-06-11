@@ -9,8 +9,7 @@
  "field_order": [
   "full_name",
   "user",
-  "zone",
-  "role"
+  "zone"
  ],
  "fields": [
   {
@@ -32,25 +31,14 @@
    "reqd": 1
   },
   {
-   "fieldname": "role",
-   "fieldtype": "Link",
-   "in_list_view": 1,
-   "in_standard_filter": 1,
-   "label": "Role",
-   "options": "Role",
-   "reqd": 1
-  },
-  {
    "fieldname": "full_name",
    "fieldtype": "Data",
    "label": "Name",
-   "read_only": 1,
-   "reqd": 1,
-   "unique": 1
+   "read_only": 1
   }
  ],
  "links": [],
- "modified": "2023-06-08 14:21:59.834382",
+ "modified": "2023-06-11 21:34:16.738396",
  "modified_by": "Administrator",
  "module": "ATASP Connect",
  "name": "ATASP Connect User",
@@ -71,15 +59,6 @@
    "write": 1
   },
   {
-   "email": 1,
-   "export": 1,
-   "print": 1,
-   "read": 1,
-   "report": 1,
-   "role": "Data Collection Agent",
-   "share": 1
-  },
-  {
    "create": 1,
    "delete": 1,
    "email": 1,
@@ -87,7 +66,7 @@
    "print": 1,
    "read": 1,
    "report": 1,
-   "role": "National M&E Officer",
+   "role": "National Data Manager",
    "share": 1,
    "write": 1
   },
@@ -99,7 +78,7 @@
    "print": 1,
    "read": 1,
    "report": 1,
-   "role": "National Programme Coordinator",
+   "role": "National Dashboard Viewer",
    "share": 1,
    "write": 1
   },
@@ -109,7 +88,7 @@
    "print": 1,
    "read": 1,
    "report": 1,
-   "role": "Zonal M&E Officer",
+   "role": "Zonal Data Manager",
    "share": 1
   },
   {
@@ -119,7 +98,7 @@
    "print": 1,
    "read": 1,
    "report": 1,
-   "role": "Zonal Programme Coordinator",
+   "role": "Zonal Data Approver",
    "share": 1
   }
  ],

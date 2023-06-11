@@ -182,22 +182,16 @@ user_data_fields = [
 # Authentication and authorization
 # --------------------------------
 
-# auth_hooks = [
-# 	"atasp_connect.auth.validate"
-# ]
+auth_hooks = [
+	"atasp_connect.auth.validate"
+]
 
 fixtures = [
     "Navbar Settings",
 	"Website Settings",
 	"Workspace",
-	"Indicator",
-	"Indicator Demographic",
-	"Indicator Target",
-	"Indicator Group",
-	"Demograhic Achievement",
-	"Demographic",
-	"Demographic Unit",
 	"Custom DocPerm",
 	"Year",
-	{"dt": "Role", "filters": [["is_custom", "=", 1]]}
+	{"dt": "Role", "filters": [["is_custom", "=", 1]]},
+	"Role Profile"
 ]

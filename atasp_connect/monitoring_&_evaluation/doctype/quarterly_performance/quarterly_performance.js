@@ -34,10 +34,10 @@ frappe.ui.form.on('Quarterly Performance', {
 
 	before_submit: async (frm, cdt, cdn) => {
 		// Prevent form from saving if all indicator demographics don't have achievements 
-		/* if (usable_demo.length > 0 || indicator_demo.length > frm.doc.achievements.length) {
+		if (usable_demo.length > 0 || indicator_demo.length > frm.doc.achievements.length) {
 			frappe.throw(`You have not provided the achievements for the following indicators: \n ${usable_demo}`);
             return false; 
-		} */
+		}
 	},
 
 	indicator: async (frm) => {

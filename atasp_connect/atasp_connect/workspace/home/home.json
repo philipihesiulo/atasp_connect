@@ -16,7 +16,7 @@
  "is_hidden": 0,
  "label": "Home",
  "links": [],
- "modified": "2023-05-17 11:36:50.663079",
+ "modified": "2023-06-10 04:29:55.538525",
  "modified_by": "Administrator",
  "module": "ATASP Connect",
  "name": "Home",
@@ -30,7 +30,11 @@
    "label": "Performance Outcomes"
   }
  ],
- "roles": [],
+ "roles": [
+  {
+   "role": "Zonal Data Manager"
+  }
+ ],
  "sequence_id": 1.0,
  "shortcuts": [
   {

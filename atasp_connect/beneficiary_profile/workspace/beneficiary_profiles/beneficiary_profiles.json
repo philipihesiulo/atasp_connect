@@ -1,0 +1,116 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"0d6s1sRLhq\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Beneficiary Profiles</span>\",\"col\":12}},{\"id\":\"nQxGAAz0E8\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"CzgSfING4c\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Quick Action</b></span>\",\"col\":12}},{\"id\":\"O7VndNaDCj\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Beneficiary Profiles Dashboard\",\"col\":6}},{\"id\":\"xaCfTk39wM\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"HFs4eG4kuh\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Beneficiary Profiles</b></span>\",\"col\":12}},{\"id\":\"Eq2K7BeevZ\",\"type\":\"card\",\"data\":{\"card_name\":\"-\",\"col\":4}},{\"id\":\"I8W43iPd1M\",\"type\":\"card\",\"data\":{\"card_name\":\"--\",\"col\":4}}]",
+ "creation": "2023-06-10 01:06:38.035335",
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "milestone",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Beneficiary Profiles",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "-",
+   "link_count": 3,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Generic Beneficiary Profile",
+   "link_count": 0,
+   "link_to": "Generic Beneficiary Profile",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Agro-Input Dealers Profile",
+   "link_count": 0,
+   "link_to": "Agro-Input Dealers Profile",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Fabricators Profile",
+   "link_count": 0,
+   "link_to": "Fabricators Profile",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "--",
+   "link_count": 3,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Farmers Profile",
+   "link_count": 0,
+   "link_to": "Farmers Profile",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Manufacturers Profile",
+   "link_count": 0,
+   "link_to": "Generic Beneficiary Profile",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Processors Profile",
+   "link_count": 0,
+   "link_to": "Generic Beneficiary Profile",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2023-06-10 05:00:00.581996",
+ "modified_by": "Administrator",
+ "module": "Beneficiary Profile",
+ "name": "Beneficiary Profiles",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Zonal Data Manager"
+  }
+ ],
+ "sequence_id": 3.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Beneficiary Profiles Dashboard",
+   "link_to": "ATASP Connect Dashboard",
+   "type": "Dashboard"
+  }
+ ],
+ "title": "Beneficiary Profiles"
+}
