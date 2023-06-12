@@ -16,7 +16,7 @@
  "list_columns": [],
  "login_required": 0,
  "max_attachment_size": 0,
- "modified": "2023-06-10 01:04:02.809045",
+ "modified": "2023-06-12 22:20:11.582728",
  "modified_by": "Administrator",
  "module": "Beneficiary Profile",
  "name": "fabricators-profile",
@@ -93,12 +93,12 @@
   {
    "allow_read_on_all_link_options": 0,
    "fieldname": "zone",
-   "fieldtype": "Select",
+   "fieldtype": "Link",
    "hidden": 0,
    "label": "Zone",
    "max_length": 0,
    "max_value": 0,
-   "options": "Adani-Omor\nBida-Badagi\nKano-Jigawa\nKebbi-Sokoto",
+   "options": "Zone",
    "read_only": 0,
    "reqd": 0,
    "show_in_filter": 0
