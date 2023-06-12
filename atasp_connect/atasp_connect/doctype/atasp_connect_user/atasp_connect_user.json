@@ -1,29 +1,28 @@
 {
  "actions": [],
- "autoname": "field:user",
+ "autoname": "field:email",
  "creation": "2023-05-17 11:34:18.572354",
  "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "first_name",
+  "last_name",
   "full_name",
-  "user",
-  "zone"
+  "email",
+  "section_break_xqx6j",
+  "phone",
+  "role",
+  "zone",
+  "change_password_section",
+  "password"
  ],
  "fields": [
   {
-   "fieldname": "user",
-   "fieldtype": "Link",
-   "in_list_view": 1,
-   "label": "User Account",
-   "options": "User",
-   "reqd": 1,
-   "unique": 1
-  },
-  {
    "fieldname": "zone",
    "fieldtype": "Link",
+   "in_filter": 1,
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Zone",
@@ -33,12 +32,65 @@
   {
    "fieldname": "full_name",
    "fieldtype": "Data",
-   "label": "Name",
+   "in_list_view": 1,
+   "label": "Full Name",
    "read_only": 1
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "role",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Role",
+   "options": "Role Profile",
+   "reqd": 1
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Email",
+   "options": "Email",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "password",
+   "fieldtype": "Password",
+   "label": "Password"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "label": "Phone Number",
+   "options": "Phone"
+  },
+  {
+   "fieldname": "section_break_xqx6j",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "change_password_section",
+   "fieldtype": "Section Break",
+   "label": "Change Password"
   }
  ],
+ "hide_toolbar": 1,
  "links": [],
- "modified": "2023-06-11 21:34:16.738396",
+ "modified": "2023-06-12 05:37:35.526942",
  "modified_by": "Administrator",
  "module": "ATASP Connect",
  "name": "ATASP Connect User",
@@ -71,16 +123,13 @@
    "write": 1
   },
   {
-   "create": 1,
-   "delete": 1,
    "email": 1,
    "export": 1,
    "print": 1,
    "read": 1,
    "report": 1,
    "role": "National Dashboard Viewer",
-   "share": 1,
-   "write": 1
+   "share": 1
   },
   {
    "email": 1,

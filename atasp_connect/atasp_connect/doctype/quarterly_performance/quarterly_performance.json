@@ -1,6 +1,6 @@
 {
  "actions": [],
- "autoname": "field:zone",
+ "autoname": "format:{indicator} - {quarter} - {year} -- {zone}",
  "creation": "2021-08-10 13:36:21.763815",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -8,10 +8,13 @@
  "field_order": [
   "zone",
   "year",
+  "column_break_pigci",
   "quarter",
+  "indicator",
   "section_break_5",
   "achievements",
-  "amended_from"
+  "amended_from",
+  "outcome"
  ],
  "fields": [
   {
@@ -20,8 +23,7 @@
    "in_list_view": 1,
    "label": "Zone",
    "options": "Zone",
-   "reqd": 1,
-   "unique": 1
+   "reqd": 1
   },
   {
    "fieldname": "year",
@@ -55,19 +57,38 @@
    "fieldtype": "Link",
    "label": "Amended From",
    "no_copy": 1,
-   "options": "Quarterly Performance Data",
+   "options": "Quarterly Performance",
    "print_hide": 1,
    "read_only": 1
+  },
+  {
+   "fieldname": "column_break_pigci",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "indicator",
+   "fieldtype": "Link",
+   "label": "Indicator",
+   "options": "Indicator",
+   "reqd": 1
+  },
+  {
+   "fieldname": "outcome",
+   "fieldtype": "Data",
+   "label": "Total Outcome",
+   "reqd": 1
   }
  ],
+ "hide_toolbar": 1,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-05-16 19:27:41.137109",
+ "modified": "2023-06-12 06:32:26.119252",
  "modified_by": "Administrator",
  "module": "ATASP Connect",
  "name": "Quarterly Performance",
- "naming_rule": "By fieldname",
+ "name_case": "Title Case",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {
