@@ -67,9 +67,9 @@
   },
   {
    "fieldname": "zone",
-   "fieldtype": "Select",
+   "fieldtype": "Link",
    "label": "Zone",
-   "options": "Adani-Omor\nBida-Badagi\nKano-Jigawa\nKebbi-Sokoto"
+   "options": "Zone"
   },
   {
    "fieldname": "state",
@@ -155,7 +155,7 @@
  ],
  "is_published_field": "is_published",
  "links": [],
- "modified": "2023-06-10 04:32:25.824610",
+ "modified": "2023-06-12 22:17:36.245138",
  "modified_by": "Administrator",
  "module": "Beneficiary Profile",
  "name": "Fabricators Profile",
