@@ -4,7 +4,7 @@ from frappe import _
 def validate():
     logged_in_user = frappe.session.user
     error_message = ""
-    if not (logged_in_user == "Guest" or logged_in_user == "Administrator"):
+    if not (logged_in_user == "Guest" or logged_in_user == "Administrator") and "full_name" in frappe.response:
         try:
             user_account = frappe.get_doc('User', logged_in_user)
             if not frappe.db.exists('ATASP Connect User', logged_in_user):
