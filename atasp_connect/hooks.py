@@ -83,7 +83,7 @@ home_page = "login"
 permission_query_conditions = {
 	"Quarterly Performance": "atasp_connect.permissions.quarterly_performance_query",
 	"Zone": "atasp_connect.permissions.zone_query",
-	"Role": "atasp_connect.permissions.role_query",
+	#"Role": "atasp_connect.permissions.role_query",
 }
 #
 # has_permission = {
