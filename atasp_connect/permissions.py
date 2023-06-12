@@ -12,7 +12,7 @@ def quarterly_performance_query(user):
             return "(`tabQuarterly Performance`.zone = {zone})".format(zone=frappe.db.escape(zone))
 
 
-def zone_query(user):
+""" def zone_query(user):
     if not user:
         user = frappe.session.user
     if user != 'Administrator':
@@ -21,7 +21,7 @@ def zone_query(user):
         role = atasp_connect_user.role
         if role != 'National M&E Officer':
             return "(`tabZone`.zone_name = {zone})".format(zone=frappe.db.escape(zone))
-
+ """
 def role_query(user):
     if not user:
         user = frappe.session.user
