@@ -7,16 +7,6 @@ from frappe import _
 
 # Render the report
 def execute(filters=None):
-	data = [
-		{
-			'ind_code': 'AI',
-			'indicator': 'Area Under Production',
-			'adanni-omor': 12,
-			'headquarters': 21,
-			'kebbi-sokoto': 9
-		}
-	]
-
 	return get_columns(), get_data(filters)
 
 # Get report Data
@@ -25,17 +15,21 @@ def get_data(filters):
 	indicators = frappe.get_list('Indicator', fields=['name', 'code'])
 	zones = frappe.get_list('Zone')
 	for indicator in indicators:
+		total_outcome = 0
 		row = {
 			'ind_code': indicator.code,
 			'indicator': indicator.name,
 		}
 
 		for zone in zones:
-			row[str(zone.name).lower()] = get_annual_indicator_achievement(
+			outcome_in_zone = get_annual_indicator_achievement(
 				zone.name, 
 				indicator.name, 
 				filters
 			)
+			row[str(zone.name).lower()] = outcome_in_zone
+			total_outcome += outcome_in_zone
+		row['total'] = total_outcome
 		data_rows.append(row)
 	return data_rows
 			
@@ -72,6 +66,14 @@ def get_columns():
         },
 	]
 
+	total_column = [
+		{
+            'fieldname': 'total',
+            'label': _('Total'),
+            'fieldtype': 'Int',
+        }
+	]
+
 	zone_columns = []
 	zones = frappe.get_list('Zone')
 
@@ -83,5 +85,5 @@ def get_columns():
 		}
 
 		zone_columns.append(zone_item)
-	return default_columns + zone_columns
+	return default_columns + zone_columns + total_column
 

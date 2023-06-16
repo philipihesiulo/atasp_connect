@@ -1,10 +1,5 @@
 {
- "charts": [
-  {
-   "chart_name": "Performance Data Submission",
-   "label": "Performance Chart"
-  }
- ],
+ "charts": [],
  "content": "[{\"id\":\"uHEOMP1cwp\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Home</span>\",\"col\":12}},{\"id\":\"FgCyZdElMH\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"emh6FbO3Wg\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Quick Actions</b></span>\",\"col\":12}},{\"id\":\"2UjrvfYrcS\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Go To Dashboard\",\"col\":3}},{\"id\":\"cRQntKVqkA\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Quarterly Performance Reports\",\"col\":3}},{\"id\":\"JX9EBeDrLa\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Submit Performance Data\",\"col\":3}},{\"id\":\"OlcOfqNb-X\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View All Performance Data\",\"col\":3}},{\"id\":\"ha5PR3Lgd1\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"S-9hEWSL8A\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Performance Chart\",\"col\":12}},{\"id\":\"wiP5yDOJED\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"37J7QEx-xG\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Performance Outcomes\",\"col\":12}}]",
  "creation": "2023-05-16 17:58:32.819301",
  "docstatus": 0,
@@ -16,7 +11,7 @@
  "is_hidden": 0,
  "label": "Home",
  "links": [],
- "modified": "2023-06-10 04:29:55.538525",
+ "modified": "2023-06-14 23:15:10.192136",
  "modified_by": "Administrator",
  "module": "ATASP Connect",
  "name": "Home",
@@ -41,7 +36,7 @@
    "color": "Grey",
    "doc_view": "List",
    "label": "Go To Dashboard",
-   "link_to": "ATASP Connect Dashboard",
+   "link_to": "ATASP Connect National Dashboard",
    "type": "Dashboard"
   },
   {

@@ -1,11 +1,6 @@
 {
- "charts": [
-  {
-   "chart_name": "Performance Data Submission",
-   "label": "Submission of Performance Data"
-  }
- ],
- "content": "[{\"id\":\"-6Jp04BzV8\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Charts &amp; Reports</span>\",\"col\":12}},{\"id\":\"vpgOzVDJT3\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"H2XsbKFpXp\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Quick Actions</b></span>\",\"col\":12}},{\"id\":\"TdG0VMSrxi\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"National Dashboard\",\"col\":3}},{\"id\":\"mut59pxOsg\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Zonal Dashboard\",\"col\":3}},{\"id\":\"qByTq7yKdF\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View LOP Achievment\",\"col\":3}},{\"id\":\"qCw8IqjBy5\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Zonal Quarterly Reports\",\"col\":3}},{\"id\":\"v0jhPQE4VV\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Consolidated Annual Report\",\"col\":3}},{\"id\":\"LKuaApnHvP\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"GS994HLPJX\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Submission of Performance Data\",\"col\":12}},{\"id\":\"BkCM2dKY4i\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"Aj4s3mU4Rs\",\"type\":\"card\",\"data\":{\"card_name\":\"Reports\",\"col\":4}}]",
+ "charts": [],
+ "content": "[{\"id\":\"-6Jp04BzV8\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Charts &amp; Reports</span>\",\"col\":12}},{\"id\":\"vpgOzVDJT3\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"H2XsbKFpXp\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Quick Actions</b></span>\",\"col\":12}},{\"id\":\"TdG0VMSrxi\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"National Dashboard\",\"col\":3}},{\"id\":\"mut59pxOsg\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Zonal Dashboard\",\"col\":3}},{\"id\":\"qByTq7yKdF\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View LOP Achievment\",\"col\":3}},{\"id\":\"qCw8IqjBy5\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Zonal Quarterly Reports\",\"col\":3}},{\"id\":\"v0jhPQE4VV\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"National Annual Consolidated Report\",\"col\":3}},{\"id\":\"LKuaApnHvP\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"GS994HLPJX\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Submission of Performance Data\",\"col\":12}},{\"id\":\"BkCM2dKY4i\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"Aj4s3mU4Rs\",\"type\":\"card\",\"data\":{\"card_name\":\"Reports\",\"col\":4}}]",
  "creation": "2023-05-16 18:33:04.061917",
  "docstatus": 0,
  "doctype": "Workspace",
@@ -27,7 +22,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Quarterly Zonal Report",
+   "label": "Zonal Quarterly Report",
    "link_count": 0,
    "link_to": "Zonal Quarterly Report",
    "link_type": "Report",
@@ -37,7 +32,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Annual Zonal Report",
+   "label": "Zonal Annual Report",
    "link_count": 0,
    "link_to": "Zonal Quarterly Report",
    "link_type": "Report",
@@ -47,9 +42,9 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Quarterly Consolidated Report",
+   "label": "Natioanl Quarterly Consolidated Report",
    "link_count": 0,
-   "link_to": "Zonal Quarterly Report",
+   "link_to": "Annual Consolidated Report",
    "link_type": "Report",
    "onboard": 0,
    "type": "Link"
@@ -57,9 +52,9 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Annual Consolidated Report",
+   "label": "National Annual Consolidated Report",
    "link_count": 0,
-   "link_to": "Zonal Quarterly Report",
+   "link_to": "Annual Consolidated Report",
    "link_type": "Report",
    "onboard": 0,
    "type": "Link"
@@ -75,7 +70,7 @@
    "type": "Link"
   }
  ],
- "modified": "2023-06-10 05:05:20.469529",
+ "modified": "2023-06-14 23:14:50.789601",
  "modified_by": "Administrator",
  "module": "ATASP Connect",
  "name": "Charts & Reports",
@@ -100,15 +95,22 @@
   {
    "color": "Grey",
    "doc_view": "List",
+   "label": "National Annual Consolidated Report",
+   "link_to": "Annual Consolidated Report",
+   "type": "Report"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
    "label": "Zonal Dashboard",
-   "link_to": "ATASP Connect Dashboard",
+   "link_to": "ATASP Connect National Dashboard",
    "type": "Dashboard"
   },
   {
    "color": "Grey",
    "doc_view": "List",
    "label": "National Dashboard",
-   "link_to": "ATASP Connect Dashboard",
+   "link_to": "ATASP Connect National Dashboard",
    "type": "Dashboard"
   },
   {
@@ -122,13 +124,6 @@
    "color": "Grey",
    "doc_view": "List",
    "label": "Zonal Quarterly Reports",
-   "link_to": "Zonal Quarterly Report",
-   "type": "Report"
-  },
-  {
-   "color": "Grey",
-   "doc_view": "List",
-   "label": "Consolidated Annual Report",
    "link_to": "Zonal Quarterly Report",
    "type": "Report"
   }

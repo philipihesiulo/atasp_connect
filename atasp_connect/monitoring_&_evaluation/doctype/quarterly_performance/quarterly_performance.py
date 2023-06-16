@@ -11,7 +11,7 @@ class QuarterlyPerformance(Document):
 		# Set Date Submitted
 		self.date_submitted = now()
 
-		# Make sure the revord is unique
+		# Make sure the entry is unique
 		filters = {
 			'year': self.year,
 			'quarter': self.quarter,

@@ -15,7 +15,7 @@
    "hidden": 0,
    "is_query_report": 0,
    "label": "Settings",
-   "link_count": 1,
+   "link_count": 3,
    "onboard": 0,
    "type": "Card Break"
   },
@@ -28,9 +28,29 @@
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Year",
+   "link_count": 0,
+   "link_to": "Year",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Zone",
+   "link_count": 0,
+   "link_to": "Zone",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   }
  ],
- "modified": "2023-06-12 06:07:28.760524",
+ "modified": "2023-06-14 16:02:09.051290",
  "modified_by": "Administrator",
  "module": "ATASP Connect",
  "name": "ATASP Connect Settings",
@@ -60,12 +80,6 @@
    "doc_view": "New",
    "label": "Create New User",
    "link_to": "ATASP Connect User",
-   "type": "DocType"
-  },
-  {
-   "doc_view": "",
-   "label": "System Settings",
-   "link_to": "ATASP Connect System Settings",
    "type": "DocType"
   }
  ],

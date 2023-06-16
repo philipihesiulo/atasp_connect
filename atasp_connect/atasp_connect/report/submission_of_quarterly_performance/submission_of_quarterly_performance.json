@@ -1,7 +1,7 @@
 {
- "add_total_row": 0,
+ "add_total_row": 1,
  "columns": [],
- "creation": "2023-06-14 10:10:10.192986",
+ "creation": "2023-06-14 23:23:38.641849",
  "disable_prepared_report": 0,
  "disabled": 0,
  "docstatus": 0,
@@ -9,14 +9,14 @@
  "filters": [],
  "idx": 0,
  "is_standard": "Yes",
- "modified": "2023-06-14 16:40:14.079009",
+ "modified": "2023-06-15 00:28:48.009820",
  "modified_by": "Administrator",
- "module": "Monitoring & Evaluation",
- "name": "Annual Consolidated Report",
+ "module": "ATASP Connect",
+ "name": "Submission of Quarterly Performance",
  "owner": "Administrator",
  "prepared_report": 0,
  "ref_doctype": "Quarterly Performance",
- "report_name": "Annual Consolidated Report",
+ "report_name": "Submission of Quarterly Performance",
  "report_type": "Script Report",
  "roles": [
   {

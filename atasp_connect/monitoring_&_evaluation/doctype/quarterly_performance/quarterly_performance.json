@@ -1,6 +1,6 @@
 {
  "actions": [],
- "autoname": "format:{indicator} - {zone} - {year} - {quarter}",
+ "autoname": "format:{indicator} - {quarter} - {year} -- {zone}",
  "creation": "2021-08-10 13:36:21.763815",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -8,21 +8,19 @@
  "field_order": [
   "zone",
   "year",
-  "column_break_6c1w4",
+  "column_break_pigci",
   "quarter",
   "indicator",
   "section_break_5",
   "achievements",
-  "outcome",
-  "date_submitted",
-  "amended_from"
+  "amended_from",
+  "outcome"
  ],
  "fields": [
   {
    "fieldname": "zone",
    "fieldtype": "Link",
    "in_list_view": 1,
-   "in_standard_filter": 1,
    "label": "Zone",
    "options": "Zone",
    "read_only": 1,
@@ -32,18 +30,16 @@
    "fieldname": "year",
    "fieldtype": "Link",
    "in_list_view": 1,
-   "in_standard_filter": 1,
    "label": "Year",
    "options": "Year",
    "reqd": 1
   },
   {
    "fieldname": "quarter",
-   "fieldtype": "Select",
+   "fieldtype": "Link",
    "in_list_view": 1,
-   "in_standard_filter": 1,
    "label": "Quarter",
-   "options": "\nFirst Quarter\nSecond Quarter\nThird Quarter\nFourth Quarter",
+   "options": "Quarter",
    "reqd": 1
   },
   {
@@ -71,35 +67,24 @@
    "fieldtype": "Link",
    "label": "Indicator",
    "options": "Indicator",
-   "reqd": 1,
-   "set_only_once": 1
-  },
-  {
-   "default": "0",
-   "fieldname": "outcome",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Total Outcome",
-   "read_only": 1,
    "reqd": 1
   },
   {
-   "fieldname": "column_break_6c1w4",
-   "fieldtype": "Column Break"
+   "fieldname": "outcome",
+   "fieldtype": "Data",
+   "label": "Total Outcome",
+   "reqd": 1
   },
   {
-   "fieldname": "date_submitted",
-   "fieldtype": "Datetime",
-   "hidden": 1,
-   "in_list_view": 1,
-   "label": "Date Submitted",
-   "read_only": 1
+   "fieldname": "column_break_pigci",
+   "fieldtype": "Column Break"
   }
  ],
+ "hide_toolbar": 1,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-06-10 04:40:14.411584",
+ "modified": "2023-06-15 02:03:14.492558",
  "modified_by": "Administrator",
  "module": "Monitoring & Evaluation",
  "name": "Quarterly Performance",
@@ -108,8 +93,6 @@
  "owner": "Administrator",
  "permissions": [
   {
-   "amend": 1,
-   "cancel": 1,
    "create": 1,
    "delete": 1,
    "email": 1,
@@ -118,36 +101,7 @@
    "read": 1,
    "report": 1,
    "role": "System Manager",
-   "select": 1,
    "share": 1,
-   "submit": 1,
-   "write": 1
-  },
-  {
-   "create": 1,
-   "delete": 1,
-   "email": 1,
-   "export": 1,
-   "print": 1,
-   "read": 1,
-   "report": 1,
-   "role": "Zonal Data Manager",
-   "share": 1,
-   "write": 1
-  },
-  {
-   "amend": 1,
-   "create": 1,
-   "delete": 1,
-   "email": 1,
-   "export": 1,
-   "print": 1,
-   "read": 1,
-   "report": 1,
-   "role": "Zonal Data Approver",
-   "select": 1,
-   "share": 1,
-   "submit": 1,
    "write": 1
   }
  ],
