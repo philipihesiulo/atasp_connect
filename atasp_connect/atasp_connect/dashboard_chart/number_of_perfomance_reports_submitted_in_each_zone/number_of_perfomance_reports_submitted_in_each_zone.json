@@ -1,0 +1,45 @@
+{
+ "chart_name": "Number Of Perfomance Reports Submitted in Each Zone",
+ "chart_type": "Report",
+ "creation": "2023-06-17 01:36:29.427853",
+ "custom_options": "{\"x_field\": \"zone\", \"chart_type\": \"Bar\", \"y_axis_fields\": [{\"idx\": 1, \"__islocal\": true, \"name\": \"row 1\", \"y_field\": \"first-quarter\"}, {\"idx\": 2, \"__islocal\": true, \"name\": \"row 2\", \"y_field\": \"second-quarter\"}, {\"idx\": 3, \"__islocal\": true, \"name\": \"row 3\", \"y_field\": \"third-quarter\"}, {\"idx\": 4, \"__islocal\": true, \"name\": \"row 4\", \"y_field\": \"fourth-quarter\"}, {\"idx\": 5, \"__islocal\": true, \"name\": \"row 5\", \"y_field\": \"total\", \"color\": \"#29CD42\"}], \"y_fields\": [\"first-quarter\", \"second-quarter\", \"third-quarter\", \"fourth-quarter\", \"total\"], \"colors\": [null, null, null, null, \"#29CD42\"]}",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart",
+ "filters_json": "{\"quarter\":\"All\",\"year\":\"2023\"}",
+ "group_by_type": "Count",
+ "idx": 0,
+ "is_public": 0,
+ "is_standard": 1,
+ "modified": "2023-06-17 01:36:29.784323",
+ "modified_by": "Administrator",
+ "module": "ATASP Connect",
+ "name": "Number Of Perfomance Reports Submitted in Each Zone",
+ "number_of_groups": 0,
+ "owner": "Administrator",
+ "report_name": "Submission of Quarterly Performance",
+ "roles": [],
+ "time_interval": "Yearly",
+ "timeseries": 0,
+ "timespan": "Last Year",
+ "type": "Bar",
+ "use_report_chart": 0,
+ "x_field": "zone",
+ "y_axis": [
+  {
+   "y_field": "first-quarter"
+  },
+  {
+   "y_field": "second-quarter"
+  },
+  {
+   "y_field": "third-quarter"
+  },
+  {
+   "y_field": "fourth-quarter"
+  },
+  {
+   "color": "#29CD42",
+   "y_field": "total"
+  }
+ ]
+}
