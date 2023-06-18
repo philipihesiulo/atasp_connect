@@ -52,24 +52,6 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Performance Targets",
-   "link_count": 1,
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "All LOP Targets",
-   "link_count": 0,
-   "link_to": "LOP Target",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
    "label": "Demographics",
    "link_count": 2,
    "onboard": 0,
@@ -94,9 +76,37 @@
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Performance Targets",
+   "link_count": 2,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Zonal Performance Target",
+   "link_count": 0,
+   "link_to": "Performance Target",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "LOP Targets",
+   "link_count": 0,
+   "link_to": "LOP Targets",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   }
  ],
- "modified": "2023-06-10 01:06:44.055141",
+ "modified": "2023-06-17 04:22:41.296068",
  "modified_by": "Administrator",
  "module": "KPI",
  "name": "Indicators",
@@ -119,10 +129,10 @@
    "role": "Administrator"
   },
   {
-   "role": "National M&E Officer"
+   "role": "National Data Manager"
   },
   {
-   "role": "National Programme Coordinator"
+   "role": "National Dashboard Viewer"
   }
  ],
  "sequence_id": 4.0,
@@ -152,7 +162,7 @@
    "color": "Grey",
    "doc_view": "List",
    "label": "Create LOP Target",
-   "link_to": "LOP Target",
+   "link_to": "Performance Target",
    "type": "DocType"
   }
  ],

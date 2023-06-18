@@ -8,10 +8,7 @@
  "engine": "InnoDB",
  "field_order": [
   "report_submission_deadline_section",
-  "q1_deadline",
-  "q2_deadline",
-  "q3_deadline",
-  "q4_deadline"
+  "deadline"
  ],
  "fields": [
   {
@@ -20,31 +17,17 @@
    "label": "Report Submission Deadline"
   },
   {
-   "fieldname": "q1_deadline",
-   "fieldtype": "Datetime",
-   "label": "First Quarter"
-  },
-  {
-   "fieldname": "q2_deadline",
-   "fieldtype": "Datetime",
-   "label": "Second Quarter"
-  },
-  {
-   "fieldname": "q3_deadline",
-   "fieldtype": "Datetime",
-   "label": "Third Quarter"
-  },
-  {
-   "fieldname": "q4_deadline",
-   "fieldtype": "Datetime",
-   "label": "Fourth Quarter"
+   "fieldname": "deadline",
+   "fieldtype": "Table",
+   "label": "Deadline",
+   "options": "Quarterly Submission Deadline"
   }
  ],
  "hide_toolbar": 1,
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2023-06-12 05:50:14.070780",
+ "modified": "2023-06-17 01:58:25.332890",
  "modified_by": "Administrator",
  "module": "ATASP Connect",
  "name": "ATASP Connect System Settings",

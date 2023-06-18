@@ -4,5 +4,5 @@
 # import frappe
 import unittest
 
-class TestLOPTarget(unittest.TestCase):
+class TestPerformanceTarget(unittest.TestCase):
 	pass
