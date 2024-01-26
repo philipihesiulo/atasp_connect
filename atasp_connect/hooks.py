@@ -186,13 +186,13 @@ auth_hooks = [
 	"atasp_connect.auth.validate"
 ]
 
-fixtures = [
-    "Navbar Settings",
-	"Website Settings",
-	"Workspace",
-    "Quarter",
-	"Custom DocPerm",
-	"Year",
-	{"dt": "Role", "filters": [["is_custom", "=", 1]]},
-	"Role Profile"
-]
+# fixtures = [
+#     "Navbar Settings",
+# 	"Website Settings",
+# 	"Workspace",
+#     "Quarter",
+# 	"Custom DocPerm",
+# 	"Year",
+# 	{"dt": "Role", "filters": [["is_custom", "=", 1]]},
+# 	"Role Profile"
+# ]

@@ -21,7 +21,7 @@ def get_columns():
 def get_data(filters):
 
 	#print(filters)
-	quarterly_data = frappe.db.get_all("Quarterly Performance Data", 
+	quarterly_data = frappe.db.get_all("Quarterly Performance", 
 		filters = {
 			"docstatus": 1,
 			"zone": filters.zone,
@@ -33,7 +33,7 @@ def get_data(filters):
 	report_data = []
 
 	for data in quarterly_data:
-		doc = frappe.get_doc("Quarterly Performance Data", data.name)
+		doc = frappe.get_doc("Quarterly Performance", data.name)
 		indicators = doc.achievements
 		for indicator in indicators:
 			print(indicator)
