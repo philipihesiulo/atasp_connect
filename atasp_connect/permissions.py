@@ -1,6 +1,7 @@
 import frappe
 
 def quarterly_performance_query(user):
+    pass
     if not user:
         user = frappe.session.user
     if user != 'Administrator':
